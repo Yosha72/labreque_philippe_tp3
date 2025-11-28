@@ -255,7 +255,7 @@ _data = {
 [node name="TileMap" type="TileMap" parent="."]
 texture_filter = 1
 position = Vector2(0, -1)
-rotation = 2.1431697e-05
+rotation = 2.14317e-05
 tile_set = SubResource("TileSet_kjhc8")
 collision_visibility_mode = 2
 format = 2
@@ -277,15 +277,15 @@ script = ExtResource("4_lju75")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="player/CharacterBody2D"]
 sprite_frames = SubResource("SpriteFrames_1pjjk")
 animation = &"new_animation"
-frame_progress = 0.08866921
+frame_progress = 0.0886692
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="player/CharacterBody2D"]
 visible = false
 shape = SubResource("RectangleShape2D_lju75")
 
 [node name="Camera2D" type="Camera2D" parent="player/CharacterBody2D"]
-position = Vector2(1.3333359, 0)
-scale = Vector2(1.3333334, 1.3333334)
+position = Vector2(1.33334, 0)
+scale = Vector2(1.33333, 1.33333)
 zoom = Vector2(5.5, 5.5)
 limit_left = 0
 limit_top = 0
@@ -294,7 +294,7 @@ limit_bottom = 639
 
 [node name="step_sound" type="AudioStreamPlayer2D" parent="player/CharacterBody2D"]
 position = Vector2(-32, -820)
-scale = Vector2(1.3333334, 1.3333334)
+scale = Vector2(1.33333, 1.33333)
 stream = ExtResource("4_2kwhb")
 volume_db = 20.893
 pitch_scale = 3.0
